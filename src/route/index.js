@@ -18,22 +18,10 @@ router.get('/', function (req, res) {
 
 // ================================================================
 
-router.get('/selector', function (req, res) {
-  res.render('selector', {
-    layout: 'selector',
-  })
-})
-
-// ================================================================
-
-// router.get Створює нам один ентпоїнт
-
-//           ↙ тут вводимо шлях (PATH) до сторінки
 router.get('/template-1', function (req, res) {
-  // res.render генерує нам HTML сторінку
-
-  //            ↙ cюди вводимо назву файлу з сontainer
   res.render('template-1', {
+    layout: 'template-1',
+
     page: {
       title: 'Example Page',
     },
