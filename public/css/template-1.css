@@ -24,6 +24,8 @@
 
 .nav {
   display: block;
+
+  cursor: pointer;
 }
 
 .nav_link {
@@ -144,4 +146,22 @@
   width: 100%;
   font-size: 19px;
   padding: 9px;
+}
+
+.card {
+  border: 1px solid blue;
+  border-radius: 10px;
+}
+
+.card:hover {
+  outline: 1px solid blue;
+  box-shadow: 10px 10px 15px 1px blue;
+}
+
+.btn {
+  border-radius: 25px;
+}
+
+h1 {
+  text-shadow: 12px 5px 8px red;
 }
