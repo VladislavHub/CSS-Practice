@@ -1,0 +1,412 @@
+/* ============================ */
+
+.page {
+  display: flex;
+  justify-content: center;
+
+  padding: 15 15px;
+}
+
+.page_content {
+  max-width: 1920px;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+}
+
+/* ============================ */
+
+/* ============== HERO ==============*/
+.hero {
+  background-image: url(/fav/cuberpunk/header.jpg);
+  width: 1920px;
+  height: 1000px;
+  background-size: 100%;
+  background-position: center;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+
+  position: relative;
+  top: 20px;
+}
+
+.header_content {
+  display: flex;
+  justify-content: space-between;
+
+  max-width: 1280px;
+  width: 100%;
+}
+
+.preview_header {
+  background-image: url(/fav/cuberpunk/Cyberpunk_2077_logo\ 1.svg);
+  width: 300px;
+  height: 75px;
+}
+
+.logo_header {
+  display: flex;
+  justify-content: center;
+
+  width: 380px;
+  height: 30px;
+
+  gap: 40px;
+}
+
+.logo_item {
+  background-image: url(/fav/cuberpunk/logo/youtube\ logo.svg);
+
+  width: 30px;
+  height: 30px;
+  background-size: 100%;
+}
+
+.logo_item_1 {
+  background-image: url(/fav/cuberpunk/logo/vk\ logo.svg);
+
+  width: 30px;
+  height: 30px;
+  background-size: 100%;
+}
+
+.logo_item_2 {
+  background-image: url(/fav/cuberpunk/logo/twitter-square\ logo.svg);
+
+  width: 30px;
+  height: 30px;
+  background-size: 100%;
+}
+
+.logo_item_3 {
+  background-image: url(/fav/cuberpunk/logo/twitch\ logo.svg);
+
+  width: 30px;
+  height: 30px;
+  background-size: 100%;
+}
+
+.logo_item_4 {
+  background-image: url(/fav/cuberpunk/logo/instagram-square\ logo.svg);
+
+  width: 30px;
+  height: 30px;
+  background-size: 100%;
+}
+
+.logo_item_5 {
+  background-image: url(/fav/cuberpunk/logo/Vector.svg);
+
+  width: 30px;
+  height: 30px;
+  background-size: 100%;
+}
+
+.group_108 {
+  width: 625px;
+  height: 370px;
+  background-color: #f8f200;
+  color: #000000;
+
+  position: relative;
+  top: 555px;
+  left: 975px;
+
+  clip-path: polygon(
+    9% 0,
+    80% 0%,
+    100% 0,
+    100% 85%,
+    91% 100%,
+    20% 100%,
+    0 100%,
+    0 15%
+  );
+}
+
+.group_108_text {
+  color: #000000;
+
+  width: 486px;
+  height: 125px;
+
+  font-size: 60px;
+  font-weight: 500;
+  line-height: 45px;
+
+  font-family: 'Courier New', Courier, monospace;
+
+  position: absolute;
+  top: 70px;
+  right: 70px;
+  bottom: 175px;
+  left: 70px;
+
+  tab-size: 1;
+}
+
+.group_108_button {
+  background-color: #000000;
+  color: #f8f200;
+
+  width: 270px;
+  height: 80px;
+
+  /* gap: 10px; */
+
+  position: absolute;
+  top: 240px;
+  left: 70px;
+}
+
+.group_108_button_text {
+  font-size: 24px;
+  font-weight: 700;
+
+  line-height: 40px;
+  text-align: center;
+
+  font-family: 'roboto';
+}
+
+/* ============== HERO ==============*/
+
+/* ============== BLOCK-2 ==============*/
+
+.block_2 {
+  background-color: #ffffff;
+  width: 1920px;
+  height: 777px;
+}
+
+.block_2_header {
+  font-size: 62px;
+  font-weight: 700;
+  font-family: 'Courier New', Courier, monospace;
+  line-height: 65px;
+
+  position: relative;
+  top: 70px;
+  left: 320px;
+}
+
+.block_2_text {
+  width: 1000px;
+  height: 125;
+
+  font-family: 'Kanit', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 34px;
+  color: #777777;
+
+  position: relative;
+  top: 100px;
+  left: 320px;
+}
+
+.block_2_text_url {
+  color: #52bedc;
+  text-decoration: none;
+}
+
+.block_2_image_1 {
+  background-image: url(/fav/cuberpunk/Rectangle\ 597.jpg);
+  width: 460px;
+  height: 200px;
+
+  position: relative;
+  left: 320px;
+  top: 140px;
+
+  clip-path: polygon(
+    8% 0,
+    80% 0%,
+    100% 0,
+    100% 80%,
+    92% 100%,
+    20% 100%,
+    0 100%,
+    0 20%
+  );
+}
+
+.block_2_image_2 {
+  background-image: url(/fav/cuberpunk/Rectangle\ 598.jpg);
+  width: 460px;
+  height: 200px;
+
+  position: relative;
+  left: 320px;
+  top: 165px;
+
+  clip-path: polygon(
+    8% 0,
+    80% 0%,
+    100% 0,
+    100% 80%,
+    92% 100%,
+    20% 100%,
+    0 100%,
+    0 20%
+  );
+}
+
+.block_2_image_3 {
+  background-image: url(/fav/cuberpunk/Rectangle\ 599.jpg);
+  width: 790px;
+  height: 425px;
+
+  position: relative;
+  left: 810px;
+  top: -260px;
+
+  clip-path: polygon(
+    7% 0,
+    80% 0%,
+    100% 0,
+    100% 85%,
+    93% 100%,
+    20% 100%,
+    0 100%,
+    0 15%
+  );
+}
+
+/* ============== BLOCK-2 ==============*/
+
+/* ============== BLOCK-3 ==============*/
+.gradient {
+  background-image: url(/fav/cuberpunk/Border/22\ 1.png);
+  width: 1920px;
+  height: 70px;
+
+  position: relative;
+  top: 70px;
+}
+
+.block_3 {
+  background-color: #000000;
+  width: 1920px;
+  height: 885px;
+
+  position: relative;
+  top: 70px;
+}
+
+.block_3_logo {
+  background-image: url(/fav/cuberpunk/Акція/Vector.svg);
+  width: 132px;
+  height: 132px;
+
+  position: relative;
+  left: 320px;
+  top: 15px;
+}
+
+.block_3_header {
+  color: #ffffff;
+
+  font-size: 62px;
+  font-weight: 400;
+  line-height: 65px;
+  font-family: 'Courier New', Courier, monospace;
+
+  position: relative;
+  left: 485px;
+  top: -50px;
+}
+
+.block_3_text {
+  font-size: 18px;
+  font-weight: 400;
+  font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell;
+  line-height: 34px;
+
+  color: #ffffff;
+
+  width: 950px;
+  height: 90px;
+
+  position: relative;
+  left: 320px;
+  top: -20px;
+}
+
+.block_3_text_button {
+  color: #52bedc;
+}
+
+.block_3_form {
+  background-color: aliceblue;
+
+  width: 460px;
+  height: 385px;
+
+  position: relative;
+  left: 320px;
+  top: 100px;
+}
+
+.form_name {
+  border-bottom: 1px solid #777777;
+  color: #ffffff;
+
+  width: 460px;
+  height: 35px;
+
+  position: relative;
+  top: 20px;
+
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.form_email {
+  border-bottom: 1px solid #777777;
+  color: #ffffff;
+
+  width: 460px;
+  height: 35px;
+
+  position: relative;
+  top: 40px;
+
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.block_3_form_client {
+  border: 1px dashed #777777;
+
+  width: 460px;
+  height: 120px;
+
+  position: relative;
+  top: 90px;
+}
+
+.file {
+  /* color: #ffffff; */
+}
+
+.button_submit {
+  width: 200px;
+  height: 60px;
+
+  background-color: #f8f200;
+
+  padding: 15px 50px;
+}
+
+.label input {
+  color: red;
+}
