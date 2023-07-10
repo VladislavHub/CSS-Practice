@@ -1,0 +1,12 @@
+{{#each articles}}
+<div class="card" id="{{id}}">
+    <img src="{{photo}}" alt="articles image" class="card_image">
+
+    <strong class="card_title">{{name}}</strong>
+    <p class="card_text">{{description}}</p>
+    {{#if isNew}}
+    <span class="card_badge">NEW</span>
+    {{else}}
+    {{/if}}
+</div>
+{{/each}}
