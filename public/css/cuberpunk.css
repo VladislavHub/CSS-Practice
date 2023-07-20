@@ -113,7 +113,7 @@
   color: #000000;
 
   position: relative;
-  top: 555px;
+  top: 556px;
   left: 975px;
 
   clip-path: polygon(
@@ -180,7 +180,15 @@
 .block_2 {
   background-color: #ffffff;
   width: 1920px;
-  height: 777px;
+  height: 850px;
+}
+
+.text {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.text_roboto {
+  font-family: 'roboto', sans-serif;
 }
 
 .block_2_header {
@@ -285,8 +293,16 @@
   width: 1920px;
   height: 70px;
 
-  position: relative;
-  top: 70px;
+  position: absolute;
+  top: 1850px;
+}
+
+.gradient_2 {
+  background-image: url(/fav/cuberpunk/Border/22\ 2.png);
+  width: 1920px;
+  height: 70px;
+  position: absolute;
+  top: 2800px;
 }
 
 .block_3 {
@@ -342,7 +358,7 @@
 }
 
 .block_3_form {
-  background-color: aliceblue;
+  /* background-color: aliceblue; */
 
   width: 460px;
   height: 385px;
@@ -392,13 +408,23 @@
 
   position: relative;
   top: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .file {
   /* color: #ffffff; */
 }
 
+.block_3_form_file {
+  color: #ffffff;
+}
+
 .button_submit {
+  position: absolute;
+  left: 320px;
+  top: 690px;
   width: 200px;
   height: 60px;
 
@@ -407,6 +433,224 @@
   padding: 15px 50px;
 }
 
-.label input {
-  color: red;
+.label {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.check_mark_logo {
+  position: absolute;
+  width: 14px;
+  height: 14px;
+}
+
+.check_mark_text {
+  font-size: 12px;
+  color: white;
+  position: absolute;
+  width: 300px;
+  left: 24px;
+  top: 3px;
+}
+
+.check_mark {
+  display: flex;
+  position: absolute;
+  left: 320px;
+  top: 770px;
+}
+
+.block_3_image {
+  position: absolute;
+  top: 340px;
+  left: 800px;
+  width: 788px;
+  height: 456px;
+  background-image: url(/fav/cuberpunk/Group\ 217.png);
+}
+
+.block_4 {
+  position: relative;
+  top: 130px;
+  max-width: 1920px;
+  width: 1920px;
+  height: 730px;
+  background-color: #f8f200;
+}
+
+.block_4_image {
+  background-image: url(/fav/cuberpunk/pc.png);
+  width: 624px;
+  height: 430px;
+  position: relative;
+  top: 80px;
+  left: 320px;
+}
+
+.block_4_content {
+  width: 625px;
+  height: 525px;
+  position: relative;
+  left: 1000px;
+  bottom: 350px;
+}
+
+.block_4_content_title {
+  font-size: 62px;
+  font-weight: 600;
+  width: 700px;
+  padding-bottom: 24px;
+}
+
+.block_4_content_description {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 34px;
+}
+
+.block_4_content_properties {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-top: 24px;
+  padding-bottom: 40px;
+}
+
+.block_4_content_properties-item {
+  display: flex;
+}
+
+.block_4_content_properties-item--image {
+  display: block;
+  width: 32px;
+  height: 32px;
+  margin-right: 10px;
+}
+
+.block_4_content_properties-item--text {
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+}
+
+.block_4_content_button {
+  color: #f8f200;
+  font-weight: 700;
+  width: 200px;
+  height: 60px;
+  background-color: #000000;
+  letter-spacing: 1px;
+  font-size: 18px;
+  font-family: 'roboto';
+}
+
+.block_4_logo {
+  display: flex;
+  justify-content: center;
+  width: 540px;
+  height: 80px;
+  gap: 24px;
+  position: relative;
+  bottom: 480px;
+  left: 50px;
+}
+
+.logo_1 {
+  display: block;
+  width: 80px;
+  height: 80px;
+}
+
+.logo_2 {
+  display: block;
+  width: 320px;
+  height: 80px;
+}
+
+.block_5 {
+  width: 1920px;
+  height: 717px;
+  margin-top: 150px;
+  display: flex;
+}
+
+.block_5_image {
+  background-image: url(/fav/cuberpunk/untitled-1.jpg);
+  width: 944px;
+  height: 717px;
+}
+
+.block_5_content {
+  width: 976px;
+  height: 717px;
+  background-color: #000000;
+}
+
+.block_5_content_title {
+  color: #fff;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 62px;
+  font-weight: 400;
+  position: relative;
+  left: 32px;
+  top: 70px;
+}
+
+.properties_image {
+  display: block;
+  width: 32px;
+  height: 32px;
+}
+
+.block_5_content_properties-item {
+  display: flex;
+  gap: 10px;
+}
+
+.block_5_content_properties-item--text {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.block_5_content_properties {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  position: relative;
+  top: 100px;
+  left: 32px;
+}
+
+.block_5_content_properties_title {
+  color: #52bedc;
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 700;
+  padding-bottom: 8px;
+}
+
+.block_5_content_platform_title {
+  color: #52bedc;
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 700;
+  position: relative;
+  top: -30px;
+}
+
+.block_5_content_platform {
+  position: relative;
+  top: 200px;
+  left: 32px;
+}
+
+.platform_1 {
+  display: block;
+  width: 62px;
+  height: 35px;
 }
